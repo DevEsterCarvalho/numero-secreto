@@ -5,7 +5,7 @@ function verificaSeOChutePossuiValorValido(chute){
         if (chute.toUpperCase() === "GAME OVER"){
             document.body.innerHTML = `
                 <h2 class="game-over">GAME OVER</h2>
-                <button id="jogar-novamente" class="btn-jogar" style.background="black">Jogar Novamente</button>
+                <button id="jogar-novamente" class="btn-jogar" style="background-color: red; color:black;">Jogar Novamente</button>
             `
             document.body.style.background="black" 
         
